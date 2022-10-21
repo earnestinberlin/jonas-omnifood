@@ -33,6 +33,10 @@
   background-color: #333;
 } */
 
+.grid--center-v {
+  align-items: center;
+}
+
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
