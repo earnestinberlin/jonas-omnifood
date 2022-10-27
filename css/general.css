@@ -58,7 +58,7 @@
 }
 
 .heading-tertiary {
-  font-size: 3.6rem;
+  font-size: 3rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
 }
@@ -86,7 +86,7 @@
   text-decoration: none;
 
   /* transitions it  to hover/active state */
-  transition: background-color 1s;
+  transition: all 0.3s;
 }
 
 .btn--full:link,
