@@ -13,7 +13,6 @@
       rel="stylesheet"
     />
     <!-- script section -->
- 
 
     <!-- CSS SECTION  -->
     <link rel="stylesheet" href="css/general.css" />
@@ -21,7 +20,7 @@
     <title>Omnifood! Nessy</title>
   </head>
   <body>
-    <header class="header">
+    <header class="main-header">
       <img class="logo" alt="omnifood logo" src="img/omnifood-logo.png" />
       <nav class="main-nav">
         <ul class="main-nav-list">
@@ -169,14 +168,14 @@
 
       <!--  M E A L S  S E C T I O N -->
       <section class="section-meals">
-        <div class="container">
+        <div class="container center-text">
           <span class="subheading"> Meals </span>
           <h2 class="heading-secondary">
             Omnifood AI chooses from 5,000+ recipes
           </h2>
         </div>
 
-        <div class="container grid grid--3-cols">
+        <div class="container grid grid--3-cols margin-bottom-md">
           <div class="meal">
             <img
               src="img/meals/meal-1.jpg"
@@ -237,17 +236,15 @@
           </div>
 
           <div class="diets">
-            <h3 class="heading-tertiary">
-              Works with any diet:
-            </h3>
+            <h3 class="heading-tertiary">Works with any diet:</h3>
             <ul class="list">
               <li class="list-item">
                 <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-               <span>Vegetarian</span> 
+                <span>Vegetarian</span>
               </li>
               <li class="list-item">
                 <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Vegan</span> 
+                <span>Vegan</span>
               </li>
               <li class="list-item">
                 <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
@@ -255,11 +252,15 @@
               </li>
               <li class="list-item">
                 <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Pescatarian</span>Gluten-free
+                <span>Pescatarian</span>
               </li>
               <li class="list-item">
                 <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Lactose-free</span>  
+                <span>Gluten-free</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Lactose-free</span>
               </li>
               <li class="list-item">
                 <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
@@ -278,16 +279,194 @@
                 <span>Kid-friendly</span>
               </li>
             </ul>
+          </div>
+        </div>
+        <div class="container all-recipes">
+          <a href="#" class="link">See all recipes &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-testimonials">
+        <div class="testimonials-container">
+          <span class="subheading"> Testimonials </span>
+          <h2 class="heading-secondary">Once you try it, you can't go back</h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                src="img/customers/ben.jpg"
+                class="testimonial-img"
+                alt="Ben"
+              />
+
+              <blockquote class="testimonial-text">
+                Inexpensive, healthy and great-tasting meals, without even
+                having to order manually! It feels truly magical.
+              </blockquote>
+
+              <p class="testimonial-name">&mdash; Benedict Cumberbatch</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                src="img/customers/hannah.jpg"
+                class="testimonial-img"
+                alt="Hannah Marie"
+              />
+
+              <blockquote class="testimonial-text">
+                The AI algorithm is crazy good, it chooses the right meals for
+                me every time. It's amazing not to worry about food anymore!
+              </blockquote>
+
+              <p class="testimonial-name">&mdash; Hannah Marie</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                src="img/customers/dave.jpg"
+                class="testimonial-img"
+                alt="Dave"
+              />
+
+              <blockquote class="testimonial-text">
+                Omnifood is a life saver! I just started a company, so there's
+                no time for cooking. I couldn't live without my daily meals now!
+              </blockquote>
+
+              <p class="testimonial-name">&mdash; David Spade</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                src="img/customers/steve.jpg"
+                class="testimonial-img"
+                alt="Steven Seagall"
+              />
+
+              <blockquote class="testimonial-text">
+                I got Omnifood for the whole family, and it frees up so much
+                time! Plus, everything is organic and vegan and without plastic.
+              </blockquote>
+
+              <p class="testimonial-name">&mdash; Steven Seagall</p>
+            </figure>
+          </div>
+        </div>
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-1.jpg" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-2.jpg" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-3.jpg" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-4.jpg" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-5.jpg" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-6.jpg" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-7.jpg" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-8.jpg" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-9.jpg" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-10.jpg" />
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-11.jpg" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-12.jpg" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-pricing">
+        <div class="container">
+          <span class="subheading">Pricing</span>
+          <h2 class="heading-secondary">
+            Eating well, without breaking the bank
+          </h2>
         </div>
 
-        <div class="container all-recipes">
-      <a href="#" class="link">See all recipes &rarr;</a>
+        <div class="container grid grid--2-cols">
+          <div class="pricing-plan">
+            <header class="plan-header">
+              <p class="plan-name">Starter</p>
+              <p class="plan-price"><span>$</span>399</p>
+              <p class="plan-text">per month. That's just $13 per meal!</p>
+            </header>
+
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>1 meal per day</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Order times are between 11AM and 9PM</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Delivery is free</span>
+              </li>
+            </ul>
+
+            <a href="#" class="btn btn--full">Start Eating Well</a>
+          </div>
+          <div class="pricing-plan">
+            <header class="plan-header">
+              <p class="plan-name">Starter</p>
+              <p class="plan-price"><span>$</span>694</p>
+              <p class="plan-text">per month. That's just $11 per meal!</p>
+            </header>
+
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>2 meals per day</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Order 24/7</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Delivery is free</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Get access to the lates recipes</span>
+              </li>
+            </ul>
+
+            <a href="#" class="btn btn--full">Start Eating Well</a>
+          </div>
         </div>
       </section>
     </main>
 
-    <!--  J S  S E C T I O N -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!--J S P O R T I O N-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
